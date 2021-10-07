@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Moment5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+  <header>
+    <h1>My courses</h1>
+  </header>
+
+
+  <div id="wrapper">
+
+    <div class=mainContent>
+
+      <h2>Moment 5</h2>
+      <h3>Courses I have completed</h3>
+      <span id=notification></span>
+
+      <table id=courses>
+      </table>
+
+      <h3>Add course:</h3>
+
+      <form>
+        <div>
+          <label for="fname">Code:</label><br>
+          <input type="text" id="code" name="fname"><br>
+          <label for="lname">Name:</label><br>
+          <input type="text" id="name" name="lname">
+        </div>
+        <div class=rightForm>
+          <label for="fname">Progression:</label><br>
+          <input type="text" id="progression" name="fname"><br>
+          <label for="lname">Syllabus:</label><br>
+          <input type="text" id="syllabus" name="lname">
+        </div>
+      </form>
+
+      <button id="addBtn">Add</button>
+
+      <div id=editFormCon>
+        
+        <h3>Edit course:</h3>
+
+        <form id=editForm>
+          <div>
+            <label for="fname">Code:</label><br>
+            <input type="text" id="codeUpdate" name="fname"><br>
+            <label for="lname">Name:</label><br>
+            <input type="text" id="nameUpdate" name="lname">
+          </div>
+          <div class=rightForm>
+            <label for="fname">Progression:</label><br>
+            <input type="text" id="progressionUpdate" name="fname"><br>
+            <label for="lname">Syllabus:</label><br>
+            <input type="text" id="syllabusUpdate" name="lname">
+            <input type="hidden" id="updateId">
+          </div>
+        </form>
+
+        <button id="updateBtn">Update</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>Created av Måns</footer>
+
+</body>
+
+<script src="js/scripts.js"></script>
+
+</html>
