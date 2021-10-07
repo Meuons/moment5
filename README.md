@@ -4,7 +4,7 @@ The webpages is hosted here http://studenter.miun.se/~mama2006/moment5/webpage/
 
 ## Info 
 
-This is a graphical user interface for the REST web service I have bulit. It allows the user to read th data from the database and interact with the create, read, update and delete functions present in the web service.
+This is a graphical user interface for the REST web service I have bulit. It allows the user to read the data from the database and interact with the create, read, update and delete functions present in the web service.
 
 ## Installation
 
