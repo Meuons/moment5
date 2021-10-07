@@ -1,0 +1,13 @@
+@media only screen and (max-width:670px) and (min-width:520px) {
+	.mainContent {
+		font-size: .9em;
+		max-width: 520px;
+	}
+	img {
+		width: 500px
+	}
+	#rightbutton {
+		position: relative;
+		left: 430px
+	}
+}

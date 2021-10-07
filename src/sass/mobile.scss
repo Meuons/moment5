@@ -1,0 +1,39 @@
+@media only screen and (max-width:519px) {
+	#wrapper {
+		margin: 0;
+	}
+	table {
+		position: relative;
+		right: 25px;
+	}
+	#navbar a {
+		font-size: .7em
+	}
+	.mainContent {
+		font-size: .7em;
+		width: 250px;
+		text-align: center;
+		background: none;
+		border: none;
+	}
+	body {
+		background-color: white;
+	}
+	img {
+		width: 250px
+	}
+	#rightbutton {
+		position: relative;
+		left: 180px
+	}
+	form {
+		display: unset;
+		width: 250px;
+	}
+	button {
+		font-size: 0.9em;
+	}
+	.rightForm {
+		margin-left: 0;
+	}
+}
