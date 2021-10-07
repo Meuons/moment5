@@ -1,6 +1,6 @@
 # moment5
 
-The webpages is hosted here http://studenter.miun.se/~mama2006/moment5/webpage/
+The webpage is hosted here http://studenter.miun.se/~mama2006/moment5/webpage/
 
 ## Info 
 
